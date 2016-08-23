@@ -1,3 +1,4 @@
 <?php
-echo 111;
+$url = getenv('MONGOLAB_URI');
+var_dump($url);
 ?>
